@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Grantha&family=Noto+Serif+Oriya:wght@400..700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <!-- Filter Buttons -->
+    <section class="filters">
+        <button data-filter="all" aria-pressed="true">All</button>
+        <button data-filter="nature" aria-pressed="false">Nature</button>
+        <button data-filter="animals" aria-pressed="false">Animals</button>
+        <button data-filter="cars" aria-pressed="false">Cars</button>
+    </section>
+    <main>
+        <!-- Gallery -->
+        <section class="gallery">
+            <img class="gallery-item nature" src="images/nature-img1.jpg" alt="Nature landscape with scenic view 1">
+            <img class="gallery-item nature" src="images/nature-img2.jpg" alt="Nature landscape with scenic view 2">
+            <img class="gallery-item nature" src="images/nature-img3.jpg" alt="Nature landscape with scenic view 3">
+            <img class="gallery-item nature" src="images/nature-img4.jpg" alt="Nature landscape with scenic view 4">
+            <img class="gallery-item nature" src="images/nature-img5.jpg" alt="Nature landscape with scenic view 5">
+            <img class="gallery-item animals" src="images/animals-img1.jpg" alt="Wildlife animal photo 1">
+            <img class="gallery-item animals" src="images/animals-img2.jpg" alt="Wildlife animal photo 2">
+            <img class="gallery-item animals" src="images/animals-img3.jpg" alt="Wildlife animal photo 3">
+            <img class="gallery-item animals" src="images/animals-img4.jpg" alt="Wildlife animal photo 4">
+            <img class="gallery-item animals" src="images/animals-img5.jpg" alt="Wildlife animal photo 5">
+            <img class="gallery-item animals" src="images/animals-img6.jpg" alt="Wildlife animal photo 6">
+            <img class="gallery-item cars" src="images/car-img1.jpg" alt="Car photograph 1">
+            <img class="gallery-item cars" src="images/car-img2.jpg" alt="Car photograph 2">
+            <img class="gallery-item cars" src="images/car-img3.jpg" alt="Car photograph 3">
+            <img class="gallery-item cars" src="images/car-img4.jpg" alt="Car photograph 4">
+            <img class="gallery-item cars" src="images/car-img5.jpg" alt="Car photograph 5">
+        </section>
+    </main>
+    <!-- Lightbox -->
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox viewer">
+        <span class="close">&times;</span>
+        <button class="prev" aria-label="Previous image">&#10094;</button>
+        <img id="lightbox-img" src="" alt="">
+        <button class="next" aria-label="Next image">&#10095;</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
