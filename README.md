@@ -2,8 +2,6 @@
 
 A responsive, accessible image gallery with filtering and lightbox functionality.
 
-![Image Gallery Screenshot](images/nature-img1.jpg)
-
 ## Features
 
 - **Responsive Design**: Works on mobile, tablet, and desktop devices
@@ -67,10 +65,6 @@ CodeAlpha_ImageGallery/
 - Keyboard navigation support (tab, arrow keys, escape)
 - Proper contrast ratios for text and interactive elements
 - Focus management in lightbox mode
-
-## License
-
-This project is open source and available under the MIT License.
 
 ---
 
