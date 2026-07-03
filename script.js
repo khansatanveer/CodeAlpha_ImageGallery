@@ -82,3 +82,11 @@ filterButtons.forEach(button => {
         });
     });
 });
+
+galleryImages.forEach(image => {
+    if (currentFilter === "all" || image.classList.contains(currentFilter)) {
+        image.classList.remove("hidden");
+    } else {
+        image.classList.add("hidden");
+    }
+});
