@@ -68,10 +68,7 @@ CodeAlpha_ImageGallery/
 - Proper contrast ratios for text and interactive elements
 - Focus management in lightbox mode
 
-## License
 
-This project is open source and available under the MIT License.
+## Live Demo
 
----
-
-*Created with ❤️ for CodeAlpha Image Gallery Project*
+🔗 https://your-demo-link.vercel.app
