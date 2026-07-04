@@ -70,9 +70,6 @@ CodeAlpha_ImageGallery/
 
 ## Live Demo
 
-🔗 https://your-demo-link.vercel.app
-=======
----
+🔗 https://code-alpha-image-gallery-lemon.vercel.app/
+===
 
-*Created with ❤️ for CodeAlpha Image Gallery Project*
->>>>>>> f20a767103a45c9e304d64134fe7416d993a41ec
