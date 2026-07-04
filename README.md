@@ -71,5 +71,5 @@ CodeAlpha_ImageGallery/
 ## Live Demo
 
 🔗 https://code-alpha-image-gallery-lemon.vercel.app/
-===
+
 
