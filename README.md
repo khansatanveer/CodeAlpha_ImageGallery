@@ -2,8 +2,6 @@
 
 A responsive, accessible image gallery with filtering and lightbox functionality.
 
-![Image Gallery Screenshot](images/nature-img1.jpg)
-
 ## Features
 
 - **Responsive Design**: Works on mobile, tablet, and desktop devices
@@ -68,7 +66,13 @@ CodeAlpha_ImageGallery/
 - Proper contrast ratios for text and interactive elements
 - Focus management in lightbox mode
 
+<<<<<<< HEAD
 
 ## Live Demo
 
 🔗 https://your-demo-link.vercel.app
+=======
+---
+
+*Created with ❤️ for CodeAlpha Image Gallery Project*
+>>>>>>> f20a767103a45c9e304d64134fe7416d993a41ec
